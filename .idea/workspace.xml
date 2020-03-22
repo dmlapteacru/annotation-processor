@@ -2,522 +2,154 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82027369-ab8c-431b-8354-e76cea2cf5f6" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/processors/processors.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/processors/src/main/java/com/ceomer/tutorial/Builder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/processors/src/main/java/com/ceomer/tutorial/BuilderProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ceomer/tutorial/annotations/AnnotationExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ceomer/tutorial/annotations/Inject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ceomer/tutorial/annotations/Injector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/services/javax.annotation.processing.Processor" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CEOmer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CEOmer.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CEOmer/Main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CEOmer/Main$BadExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CEOmer/Main$BadExampleBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CEOmer/Main$Card.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CEOmer/Main$GoodExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CEOmer/Main$GoodExampleBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CEOmer/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CEOmer/bitflag/FlagManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CEOmer/bitflag/FlagManagerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CEOmer/builders/Car$CarBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CEOmer/builders/Car$FuelType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CEOmer/builders/Car.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CEOmer/builders/SUV$SUVBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CEOmer/builders/SUV$Size.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CEOmer/builders/SUV.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CEOmer/builders/Vehicle$BaseVehicleBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CEOmer/builders/Vehicle$ICarBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CEOmer/builders/Vehicle$ISUVBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CEOmer/builders/Vehicle$VehicleBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CEOmer/builders/Vehicle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CEOmer/com/ceomer/tutorial/Main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CEOmer/com/ceomer/tutorial/Main$BadExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CEOmer/com/ceomer/tutorial/Main$BadExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CEOmer/com/ceomer/tutorial/Main$BadExampleBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CEOmer/com/ceomer/tutorial/Main$BadExampleBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CEOmer/com/ceomer/tutorial/Main$Card.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CEOmer/com/ceomer/tutorial/Main$Card.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CEOmer/com/ceomer/tutorial/Main$GoodExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CEOmer/com/ceomer/tutorial/Main$GoodExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CEOmer/com/ceomer/tutorial/Main$GoodExampleBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CEOmer/com/ceomer/tutorial/Main$GoodExampleBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CEOmer/com/ceomer/tutorial/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CEOmer/com/ceomer/tutorial/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CEOmer/com/ceomer/tutorial/suppliers/CarSupplier.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CEOmer/com/ceomer/tutorial/suppliers/CarSupplier.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CEOmer/futures/FuturesApi$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CEOmer/futures/FuturesApi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CEOmer/futures/SettableFuture$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CEOmer/futures/SettableFuture$Listener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CEOmer/futures/SettableFuture.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CEOmer/immutable_objects/ImmutableList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CEOmer/nullsafety/NullSafeApi$Listener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CEOmer/nullsafety/NullSafeApi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CEOmer/suppliers/CarSupplier.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CEOmer/suppliers/IdManager$User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CEOmer/suppliers/IdManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CEOmer/suppliers/IdManagerTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CEOmer/suppliers/IdManagerTest$TestIDSupplier.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CEOmer/suppliers/IdManagerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CEOmer/suppliers/Supplier.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CEOmer/suppliers/UUIDSupplier.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ceomer/tutorial/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ceomer/tutorial/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ceomer/tutorial/suppliers/CarSupplier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ceomer/tutorial/suppliers/CarSupplier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CEOmer/META-INF/services/javax.annotation.processing.Processor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CEOmer/com/ceomer/tutorial/Main$BadExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CEOmer/com/ceomer/tutorial/Main$BadExampleBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CEOmer/com/ceomer/tutorial/Main$Card.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CEOmer/com/ceomer/tutorial/Main$GoodExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CEOmer/com/ceomer/tutorial/Main$GoodExampleBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CEOmer/com/ceomer/tutorial/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CEOmer/com/ceomer/tutorial/annotations/AnnotationExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CEOmer/com/ceomer/tutorial/annotations/AnnotationExampleBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CEOmer/com/ceomer/tutorial/annotations/Inject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CEOmer/com/ceomer/tutorial/annotations/Injector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CEOmer/com/ceomer/tutorial/bitflag/FlagManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CEOmer/com/ceomer/tutorial/bitflag/FlagManagerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CEOmer/com/ceomer/tutorial/builders/Car$CarBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CEOmer/com/ceomer/tutorial/builders/Car$FuelType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CEOmer/com/ceomer/tutorial/builders/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CEOmer/com/ceomer/tutorial/builders/CarBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CEOmer/com/ceomer/tutorial/builders/SUV$SUVBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CEOmer/com/ceomer/tutorial/builders/SUV$Size.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CEOmer/com/ceomer/tutorial/builders/SUV.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CEOmer/com/ceomer/tutorial/builders/Vehicle$BaseVehicleBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CEOmer/com/ceomer/tutorial/builders/Vehicle$ICarBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CEOmer/com/ceomer/tutorial/builders/Vehicle$ISUVBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CEOmer/com/ceomer/tutorial/builders/Vehicle$VehicleBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CEOmer/com/ceomer/tutorial/builders/Vehicle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CEOmer/com/ceomer/tutorial/futures/FuturesApi$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CEOmer/com/ceomer/tutorial/futures/FuturesApi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CEOmer/com/ceomer/tutorial/futures/SettableFuture$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CEOmer/com/ceomer/tutorial/futures/SettableFuture$Listener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CEOmer/com/ceomer/tutorial/futures/SettableFuture.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CEOmer/com/ceomer/tutorial/immutable_objects/ImmutableList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CEOmer/com/ceomer/tutorial/nullsafety/NullSafeApi$Listener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CEOmer/com/ceomer/tutorial/nullsafety/NullSafeApi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CEOmer/com/ceomer/tutorial/suppliers/CarSupplier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CEOmer/com/ceomer/tutorial/suppliers/IdManager$User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CEOmer/com/ceomer/tutorial/suppliers/IdManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CEOmer/com/ceomer/tutorial/suppliers/IdManagerTest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CEOmer/com/ceomer/tutorial/suppliers/IdManagerTest$TestIDSupplier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CEOmer/com/ceomer/tutorial/suppliers/IdManagerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CEOmer/com/ceomer/tutorial/suppliers/Supplier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CEOmer/com/ceomer/tutorial/suppliers/UUIDSupplier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CEOmer/generated/AnnotationExampleBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CEOmer/generated/CarBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/processors/com/ceomer/tutorial/Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/processors/com/ceomer/tutorial/BuilderProcessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processors/processors.iml" beforeDir="false" afterPath="$PROJECT_DIR$/processors/processors.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/processors/src/main/java/com/ceomer/tutorial/Builder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processors/src/main/java/com/ceomer/tutorial/BuilderProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ceomer/tutorial/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/endava/tutorial/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ceomer/tutorial/annotations/AnnotationExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ceomer/tutorial/annotations/Inject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ceomer/tutorial/annotations/Injector.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ceomer/tutorial/bitflag/FlagManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ceomer/tutorial/bitflag/FlagManagerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ceomer/tutorial/builders/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ceomer/tutorial/builders/SUV.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ceomer/tutorial/builders/Vehicle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ceomer/tutorial/futures/FuturesApi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ceomer/tutorial/futures/SettableFuture.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ceomer/tutorial/immutable_objects/ImmutableList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ceomer/tutorial/nullsafety/NullSafeApi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ceomer/tutorial/suppliers/CarSupplier.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ceomer/tutorial/suppliers/IdManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ceomer/tutorial/suppliers/IdManagerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ceomer/tutorial/suppliers/Supplier.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ceomer/tutorial/suppliers/UUIDSupplier.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/services/javax.annotation.processing.Processor" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/services/javax.annotation.processing.Processor" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ErrorTreeViewConfiguration">
-    <option name="hideWarnings" value="true" />
-    <option name="HIDE_WARNINGS" value="true" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ceomer/tutorial/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BuilderProcessor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/processors/src/main/java/com/ceomer/tutorial/BuilderProcessor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="737">
-              <caret line="85" column="62" selection-start-line="85" selection-start-column="62" selection-end-line="85" selection-end-column="62" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2548#2549#0" expanded="true" />
-                <element signature="e#2595#2596#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AnnotationExampleBuilder.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/out/production/CEOmer/generated/AnnotationExampleBuilder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="javax.annotation.processing.Processor" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/out/production/CEOmer/META-INF/services/javax.annotation.processing.Processor">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="Element.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.compiler/javax/lang/model/element/Element.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="87" column="16" selection-start-line="87" selection-start-column="16" selection-end-line="87" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Builder.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/processors/src/main/java/com/ceomer/tutorial/Builder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IdManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ceomer/tutorial/suppliers/IdManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="javax.annotation.processing.Processor" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/services/javax.annotation.processing.Processor">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="AnnotationExample.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ceomer/tutorial/annotations/AnnotationExample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="15" column="75" selection-start-line="15" selection-start-column="75" selection-end-line="15" selection-end-column="75" />
-              <folding>
-                <element signature="e#432#433#0" expanded="true" />
-                <element signature="e#514#515#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ImmutableList.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ceomer/tutorial/immutable_objects/ImmutableList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="32" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="JUnit4 Test Class" />
-        <option value="Class" />
         <option value="AnnotationType" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/immutable_objects/ImmutableList.java" />
-        <option value="$PROJECT_DIR$/src/builders/SUV.java" />
-        <option value="$PROJECT_DIR$/src/builders/Car.java" />
-        <option value="$PROJECT_DIR$/src/builders/Vehicle.java" />
-        <option value="$PROJECT_DIR$/src/suppliers/Supplier.java" />
-        <option value="$PROJECT_DIR$/src/suppliers/UUIDSupplier.java" />
-        <option value="$PROJECT_DIR$/src/suppliers/IdManagerTest.groovy" />
-        <option value="$PROJECT_DIR$/src/suppliers/IdManager.java" />
-        <option value="$PROJECT_DIR$/src/suppliers/IdManagerTest.java" />
-        <option value="$PROJECT_DIR$/src/suppliers/CarSupplier.java" />
-        <option value="$PROJECT_DIR$/src/bitflag/FlagManagerTest.java" />
-        <option value="$PROJECT_DIR$/src/bitflag/FlagManager.java" />
-        <option value="$PROJECT_DIR$/src/nullsafety/NullSafeApi.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/src/futures/FuturesApi.java" />
-        <option value="$PROJECT_DIR$/src/futures/SettableFuture.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ceomer/tutorial/annotations/Inject.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ceomer/tutorial/annotations/Injector.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ceomer/tutorial/suppliers/CarSupplier.java" />
-        <option value="$PROJECT_DIR$/processors/src/main/java/com/ceomer/tutorial/Builder.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/META-INF/services/javax.annotation.processing.Processor" />
-        <option value="$PROJECT_DIR$/processors/src/main/java/com/ceomer/tutorial/BuilderProcessor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ceomer/tutorial/annotations/AnnotationExample.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ceomer/tutorial/Main.java" />
-      </list>
-    </option>
+  <component name="ProjectId" id="1ZPg0k7p0b4sGAzOQg7HHh6YWuu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="832" />
-    <option name="y" value="53" />
-    <option name="width" value="1286" />
-    <option name="height" value="1167" />
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="CEOmer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CEOmer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CEOmer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CEOmer" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CEOmer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CEOmer" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CEOmer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CEOmer" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="annotations" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CEOmer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CEOmer" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="CEOmer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CEOmer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CEOmer" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="CEOmer" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CEOmer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CEOmer" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="CEOmer" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ceomer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CEOmer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CEOmer" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="CEOmer" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ceomer" type="462c0819:PsiDirectoryNode" />
-              <item name="tutorial" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CEOmer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CEOmer" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="CEOmer" type="462c0819:PsiDirectoryNode" />
-              <item name="generated" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CEOmer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CEOmer" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="CEOmer" type="462c0819:PsiDirectoryNode" />
-              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CEOmer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CEOmer" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="CEOmer" type="462c0819:PsiDirectoryNode" />
-              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CEOmer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CEOmer" type="462c0819:PsiDirectoryNode" />
-              <item name="processors" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CEOmer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CEOmer" type="462c0819:PsiDirectoryNode" />
-              <item name="processors" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CEOmer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CEOmer" type="462c0819:PsiDirectoryNode" />
-              <item name="processors" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CEOmer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CEOmer" type="462c0819:PsiDirectoryNode" />
-              <item name="processors" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CEOmer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CEOmer" type="462c0819:PsiDirectoryNode" />
-              <item name="processors" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CEOmer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CEOmer" type="462c0819:PsiDirectoryNode" />
-              <item name="processors" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ceomer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CEOmer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CEOmer" type="462c0819:PsiDirectoryNode" />
-              <item name="processors" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ceomer" type="462c0819:PsiDirectoryNode" />
-              <item name="tutorial" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CEOmer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CEOmer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CEOmer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CEOmer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CEOmer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CEOmer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CEOmer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CEOmer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CEOmer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CEOmer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ceomer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CEOmer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CEOmer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ceomer" type="462c0819:PsiDirectoryNode" />
-              <item name="tutorial" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CEOmer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CEOmer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ceomer" type="462c0819:PsiDirectoryNode" />
-              <item name="tutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="annotations" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CEOmer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CEOmer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ceomer" type="462c0819:PsiDirectoryNode" />
-              <item name="tutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="suppliers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CEOmer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CEOmer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CEOmer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CEOmer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CEOmer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CEOmer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CEOmer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Groovy JUnit" value="groovy.util.GroovyTestCase" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../checker-framework-2.8.0/checker/dist/jdk8.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Internship/restapi" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
       <recent name="bitflag" />
       <recent name="suppliers" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\dlapteacru\PROJECTS\AdvancedJava\src\main\resources\META-INF\services" />
+      <recent name="C:\Users\dlapteacru\PROJECTS\AdvancedJava\processors\src\main\java\com\annendava\tutorial" />
+      <recent name="C:\Users\bo_om\WebstormProjects\CEOmer\src\main\java\com\ceomer\tutorial" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
       <recent name="groovy.util.GroovyTestCase" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\bo_om\WebstormProjects\CEOmer\src\main\java\com\ceomer\tutorial" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\dlapteacru\PROJECTS\AdvancedJava\processors\src\main" />
+      <recent name="C:\Users\dlapteacru\PROJECTS\AdvancedJava\processors\src\main\java\com\annendava\tutorial" />
+      <recent name="C:\Users\dlapteacru\PROJECTS\AdvancedJava\src\main\java\com\annendava\tutorial\factory" />
+      <recent name="C:\Users\dlapteacru\PROJECTS\AdvancedJava\processors\src\main\java\com\ceomer\tutorial" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.ceomer.tutorial.Main" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.endava.tutorial.Main" />
       <module name="CEOmer" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="FlagManagerTest.test_areFlagsSet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CEOmer" />
@@ -527,20 +159,15 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="bitflag" />
       <option name="MAIN_CLASS_NAME" value="bitflag.FlagManagerTest" />
       <option name="METHOD_NAME" value="test_areFlagsSet" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="IdManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CEOmer" />
@@ -550,35 +177,14 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="suppliers" />
       <option name="MAIN_CLASS_NAME" value="suppliers.IdManagerTest" />
-      <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
@@ -593,6 +199,18 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -603,554 +221,89 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1555192064829</updated>
+      <workItem from="1584745925088" duration="1645000" />
+      <workItem from="1584814965013" duration="4961000" />
+      <workItem from="1584820757331" duration="10891000" />
+      <workItem from="1584834929373" duration="1172000" />
+      <workItem from="1584868657977" duration="27381000" />
     </task>
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="IdManagerTest - 2019.04.14 at 20h 08m 45s.xml">
-      <configuration name="IdManagerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="IdManagerTest - 2019.04.14 at 20h 09m 04s.xml">
-      <configuration name="IdManagerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FlagManagerTest_test_areFlagsSet - 2019.04.15 at 19h 19m 49s.xml">
-      <configuration name="FlagManagerTest.test_areFlagsSet" configurationId="JUnit" />
-    </history-entry>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
-    <layout>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32942098" />
-      <window_info anchor="bottom" id="Messages" order="7" visible="true" weight="0.32942098" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3341158" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.26447573" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26589826" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info id="Designer" order="2" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.26447573" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3341158" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32942098" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26391098" />
-    </layout>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ceomer/tutorial/suppliers/UUIDSupplier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ceomer/tutorial/suppliers/CarSupplier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ceomer/tutorial/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="44" column="37" selection-start-line="44" selection-start-column="37" selection-end-line="44" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ceomer/tutorial/suppliers/IdManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#252#253#0" expanded="true" />
-            <element signature="e#300#301#0" expanded="true" />
-            <element signature="e#344#345#0" expanded="true" />
-            <element signature="e#425#426#0" expanded="true" />
-            <element signature="e#469#470#0" expanded="true" />
-            <element signature="e#517#518#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ceomer/tutorial/suppliers/IdManagerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ceomer/tutorial/suppliers/UUIDSupplier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ceomer/tutorial/suppliers/Supplier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ceomer/tutorial/builders/Vehicle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="68" selection-start-line="21" selection-start-column="68" selection-end-line="21" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ceomer/tutorial/builders/Car.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ceomer/tutorial/builders/SUV.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="22" selection-start-line="8" selection-start-column="3" selection-end-line="9" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ceomer/tutorial/suppliers/CarSupplier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ceomer/tutorial/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1836">
-          <caret line="108" column="26" selection-start-line="108" selection-start-column="8" selection-end-line="108" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/util/AbstractList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1224">
-          <caret line="72" column="58" selection-start-line="72" selection-start-column="58" selection-end-line="72" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/util/AbstractCollection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="60" column="59" selection-start-line="60" selection-start-column="59" selection-end-line="60" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/util/Collection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3298">
-          <caret line="219" column="17" selection-start-line="219" selection-start-column="17" selection-end-line="219" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ceomer/tutorial/immutable_objects/ImmutableList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="32" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/util/Collection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3298">
-          <caret line="219" column="17" selection-start-line="219" selection-start-column="17" selection-end-line="219" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/util/AbstractCollection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="60" column="59" selection-start-line="60" selection-start-column="59" selection-end-line="60" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/util/AbstractList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
-          <caret line="72" column="58" selection-start-line="72" selection-start-column="58" selection-end-line="72" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1394">
-          <caret line="108" column="26" selection-start-line="108" selection-start-column="8" selection-end-line="108" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ceomer/tutorial/suppliers/Supplier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/suppliers/IdManagerTest.groovy" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ceomer/tutorial/suppliers/UUIDSupplier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ceomer/tutorial/suppliers/IdManagerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ceomer/tutorial/bitflag/FlagManagerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ceomer/tutorial/bitflag/FlagManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/util/concurrent/Executor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="123" column="17" selection-start-line="123" selection-start-column="17" selection-end-line="123" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/util/concurrent/ExecutorService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="137" column="46" selection-start-line="137" selection-start-column="46" selection-end-line="137" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/util/concurrent/Executors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="89" column="27" lean-forward="true" selection-start-line="89" selection-start-column="27" selection-end-line="89" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/util/Optional.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="59" column="19" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../checker-framework-2.8.0/checker/dist/checker.jar!/jdk/Exported.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ceomer/tutorial/nullsafety/NullSafeApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ceomer/tutorial/futures/FuturesApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ceomer/tutorial/futures/SettableFuture.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="617">
-          <caret line="80" column="58" selection-start-line="80" selection-start-column="58" selection-end-line="80" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ceomer/tutorial/annotations/Inject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ceomer/tutorial/annotations/Injector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ceomer/tutorial/builders/Car.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ceomer/tutorial/builders/SUV.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="22" selection-start-line="8" selection-start-column="3" selection-end-line="9" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ceomer/tutorial/builders/Vehicle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="68" selection-start-line="21" selection-start-column="68" selection-end-line="21" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ceomer/tutorial/suppliers/CarSupplier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ceomer/tutorial/suppliers/IdManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/services/javax.annotation.processing.Processor">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ceomer/tutorial/immutable_objects/ImmutableList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="32" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.compiler/javax/lang/model/element/Element.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="87" column="16" selection-start-line="87" selection-start-column="16" selection-end-line="87" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/processors/src/main/java/com/ceomer/tutorial/Builder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/CEOmer/META-INF/services/javax.annotation.processing.Processor">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/processors/src/main/java/com/ceomer/tutorial/BuilderProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="737">
-          <caret line="85" column="62" selection-start-line="85" selection-start-column="62" selection-end-line="85" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2548#2549#0" expanded="true" />
-            <element signature="e#2595#2596#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ceomer/tutorial/annotations/AnnotationExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="75" selection-start-line="15" selection-start-column="75" selection-end-line="15" selection-end-column="75" />
-          <folding>
-            <element signature="e#432#433#0" expanded="true" />
-            <element signature="e#514#515#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/CEOmer/generated/AnnotationExampleBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ceomer/tutorial/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>10</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>CEOmer</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>checker</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+  <component name="WindowStateProjectService">
+    <state x="583" y="199" key="#Project_Structure" timestamp="1584869373229">
+      <screen x="63" y="0" width="1857" height="1080" />
+    </state>
+    <state x="583" y="199" key="#Project_Structure/63.0.1857.1080@63.0.1857.1080" timestamp="1584869373229" />
+    <state x="583" y="274" key="#Tomcat_Server" timestamp="1584816007689">
+      <screen x="63" y="0" width="1857" height="1080" />
+    </state>
+    <state x="583" y="274" key="#Tomcat_Server/63.0.1857.1080@63.0.1857.1080" timestamp="1584816007689" />
+    <state x="445" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584869701725">
+      <screen x="63" y="0" width="1857" height="1080" />
+    </state>
+    <state x="445" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog/63.0.1857.1080@63.0.1857.1080" timestamp="1584869701725" />
+    <state x="796" y="250" key="#com.intellij.ide.util.MemberChooser" timestamp="1584901555436">
+      <screen x="63" y="0" width="1857" height="1080" />
+    </state>
+    <state x="796" y="250" key="#com.intellij.ide.util.MemberChooser/63.0.1857.1080@63.0.1857.1080" timestamp="1584901555436" />
+    <state x="839" y="429" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1584746408740">
+      <screen x="63" y="0" width="1857" height="1080" />
+    </state>
+    <state x="839" y="429" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/63.0.1857.1080@63.0.1857.1080" timestamp="1584746408740" />
+    <state x="552" y="466" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1584870361090">
+      <screen x="63" y="0" width="1857" height="1080" />
+    </state>
+    <state x="552" y="466" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/63.0.1857.1080@63.0.1857.1080" timestamp="1584870361090" />
+    <state x="721" y="287" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584877208734">
+      <screen x="63" y="0" width="1857" height="1080" />
+    </state>
+    <state x="721" y="287" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/63.0.1857.1080@63.0.1857.1080" timestamp="1584877208734" />
+    <state x="771" y="357" key="FileChooserDialogImpl" timestamp="1584881728544">
+      <screen x="63" y="0" width="1857" height="1080" />
+    </state>
+    <state x="771" y="357" key="FileChooserDialogImpl/63.0.1857.1080@63.0.1857.1080" timestamp="1584881728544" />
+    <state width="1814" height="227" key="GridCell.Tab.0.bottom" timestamp="1584901571467">
+      <screen x="63" y="0" width="1857" height="1080" />
+    </state>
+    <state width="1814" height="227" key="GridCell.Tab.0.bottom/63.0.1857.1080@63.0.1857.1080" timestamp="1584901571467" />
+    <state width="1814" height="227" key="GridCell.Tab.0.center" timestamp="1584901571466">
+      <screen x="63" y="0" width="1857" height="1080" />
+    </state>
+    <state width="1814" height="227" key="GridCell.Tab.0.center/63.0.1857.1080@63.0.1857.1080" timestamp="1584901571466" />
+    <state width="1814" height="227" key="GridCell.Tab.0.left" timestamp="1584901571466">
+      <screen x="63" y="0" width="1857" height="1080" />
+    </state>
+    <state width="1814" height="227" key="GridCell.Tab.0.left/63.0.1857.1080@63.0.1857.1080" timestamp="1584901571466" />
+    <state width="1814" height="227" key="GridCell.Tab.0.right" timestamp="1584901571467">
+      <screen x="63" y="0" width="1857" height="1080" />
+    </state>
+    <state width="1814" height="227" key="GridCell.Tab.0.right/63.0.1857.1080@63.0.1857.1080" timestamp="1584901571467" />
+    <state x="656" y="239" key="NewModule_or_Project.wizard" timestamp="1584870117383">
+      <screen x="63" y="0" width="1857" height="1080" />
+    </state>
+    <state x="656" y="239" key="NewModule_or_Project.wizard/63.0.1857.1080@63.0.1857.1080" timestamp="1584870117383" />
+    <state x="502" y="191" key="SettingsEditor" timestamp="1584868890126">
+      <screen x="63" y="0" width="1857" height="1080" />
+    </state>
+    <state x="502" y="191" key="SettingsEditor/63.0.1857.1080@63.0.1857.1080" timestamp="1584868890126" />
+    <state x="155" y="92" width="1673" height="896" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1584880200947">
+      <screen x="63" y="0" width="1857" height="1080" />
+    </state>
+    <state x="155" y="92" width="1673" height="896" key="com.intellij.history.integration.ui.views.FileHistoryDialog/63.0.1857.1080@63.0.1857.1080" timestamp="1584880200947" />
+    <state x="631" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1584814965064">
+      <screen x="63" y="0" width="1857" height="1080" />
+    </state>
+    <state x="631" y="364" key="com.intellij.ide.util.TipDialog/63.0.1857.1080@63.0.1857.1080" timestamp="1584814965064" />
+    <state x="374" y="236" key="new project wizard" timestamp="1584830548101">
+      <screen x="63" y="0" width="1857" height="1080" />
+    </state>
+    <state x="374" y="236" key="new project wizard/63.0.1857.1080@63.0.1857.1080" timestamp="1584830548101" />
+    <state x="654" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1584826307498">
+      <screen x="63" y="0" width="1857" height="1080" />
+    </state>
+    <state x="654" y="235" width="672" height="678" key="search.everywhere.popup/63.0.1857.1080@63.0.1857.1080" timestamp="1584826307498" />
   </component>
 </project>

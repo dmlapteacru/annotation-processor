@@ -1,0 +1,35 @@
+
+^squid:UnusedPrivateMethod›"1Remove this unused private "setFirstName" method.(êò¹ü8²µ”Ò.
+squid:S4165¦"bRemove this useless assignment; "card" already holds the assigned value along all execution paths.(Ï¦²Î8²µ”Ò.
+Gsquid:S1068R")Remove this unused "flag3" private field.(÷ĞÍ8²µ”Ò.
+isquid:CommentedOutCodeLineJ"<This block of commented-out lines of code should be removed.( ›¼½8²µ”Ò.
+Ksquid:S1068T"(Remove this unused "dep2" private field.(é¹ºışÿÿÿÿ8²µ”Ò.
+Ysquid:UnusedPrivateMethod¥",Remove this unused private "setCard" method.(üÈŸ›8²µ”Ò.
+Lsquid:S1068P")Remove this unused "flag1" private field.(ËÜœæùÿÿÿÿ8²µ”Ò.
+nsquid:CommentedOutCodeLineH"<This block of commented-out lines of code should be removed.(¼îÄ úÿÿÿÿ8²µ”Ò.
+Wsquid:UnusedPrivateMethod‡"*Remove this unused private "build" method.(ªó¤æ8Æ†Œ÷.
+^squid:UnusedPrivateMethodn"-Remove this unused private "setFlag2" method.(°¹½™øÿÿÿÿ8²µ”Ò.
+]squid:UnusedPrivateMethod}",Remove this unused private "setDep2" method.(ı“ş”şÿÿÿÿ8²µ”Ò.
+^squid:UnusedPrivateMethods"-Remove this unused private "setFlag3" method.(êå–Üıÿÿÿÿ8²µ”Ò.
+Ysquid:UnusedPrivateMethod‚",Remove this unused private "setDep3" method.(Œ£úã8²µ”Ò.
+Fsquid:S1068S"(Remove this unused "dep1" private field.(Ùûì‡8²µ”Ò.
+nsquid:CommentedOutCodeLine'"<This block of commented-out lines of code should be removed.(Ê¿©şÿÿÿÿ8²µ”Ò.
+isquid:CommentedOutCodeLine>"<This block of commented-out lines of code should be removed.(²ì“¥8²µ”Ò.
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(•îû•üÿÿÿÿ8¸¤Øı.
+hsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ø…¯8²µ”Ò.
+nsquid:CommentedOutCodeLineF"<This block of commented-out lines of code should be removed.(œ­üšøÿÿÿÿ8²µ”Ò.
+\squid:UnusedPrivateMethod "0Remove this unused private "setLastName" method.(ğûˆ"8²µ”Ò.
+Xsquid:UnusedPrivateMethodx",Remove this unused private "setDep1" method.(šëÀî8²µ”Ò.
+Wsquid:UnusedPrivateMethodª"*Remove this unused private "build" method.(şÆ†Š8Æ†Œ÷.
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ÿ¦ÅÏùÿÿÿÿ8²µ”Ò.
+Ysquid:UnusedPrivateMethodi"-Remove this unused private "setFlag1" method.(Ä­Òò8²µ”Ò.
+Lsquid:S1068Q")Remove this unused "flag2" private field.(ÍÁ¤£øÿÿÿÿ8²µ”Ò.
+nsquid:CommentedOutCodeLine,"<This block of commented-out lines of code should be removed.(–ü½øÿÿÿÿ8²µ”Ò.
+Ksquid:S1068°",Remove this unused "fullName" private field.(—ÿø8²µ”Ò.
+nsquid:CommentedOutCodeLine)"<This block of commented-out lines of code should be removed.(È÷©Öúÿÿÿÿ8²µ”Ò.
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(àœ—Âûÿÿÿÿ8²µ”Ò.
+isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ß·‡8²µ”Ò.
+nsquid:CommentedOutCodeLine8"<This block of commented-out lines of code should be removed.(Â™†úÿÿÿÿ8²µ”Ò.
+vsquid:S1450°"WRemove the "fullName" field and declare it as a local variable in the relevant methods.(—ÿø8²µ”Ò.
+nsquid:CommentedOutCodeLine2"<This block of commented-out lines of code should be removed.(Â™†úÿÿÿÿ8²µ”Ò.
+Ksquid:S1068U"(Remove this unused "dep3" private field.(à¡„ıøÿÿÿÿ8²µ”Ò.

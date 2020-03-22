@@ -19,6 +19,9 @@
         </processorPath>
       </profile>
       <profile name="Builders" enabled="true">
+        <processorPath>
+          <entry name="$PROJECT_DIR$/src/main/java/com/annendava/tutorial/processors" />
+        </processorPath>
         <module name="CEOmer" />
       </profile>
     </annotationProcessing>

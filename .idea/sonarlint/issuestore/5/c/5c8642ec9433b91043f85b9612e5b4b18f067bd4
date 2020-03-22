@@ -1,0 +1,9 @@
+
+„squid:S2178V"fCorrect this "&" to "&&" and extract the right operand to a variable if it should always be evaluated.(—Œ²´8—‰áı.
+„squid:S2178W"fCorrect this "|" to "||" and extract the right operand to a variable if it should always be evaluated.(½÷†º8—‰áı.
+Usquid:UnusedPrivateMethod"*Remove this unused private "error" method.(Ô”ö8—‰áı.
+Lsquid:S1068#")Remove this unused "filer" private field.(û‚Û¶øÿÿÿÿ8¯÷Í÷.
+Vsquid:UnusedPrivateMethodƒ")Remove this unused private "note" method.(ß¯ÿ¦8—‰áı.
+Vsquid:UnusedPrivateMethod{"*Remove this unused private "error" method.(ÿÚ¼Ğ8—‰áı.
+wsquid:S1450#"TRemove the "filer" field and declare it as a local variable in the relevant methods.(û‚Û¶øÿÿÿÿ8Ì´Ï÷.
+ksquid:UselessImportCheck";Remove this unused import 'com.annendava.tutorial.Builder'.(©—ÿıÿÿÿÿ8ª»áı.
